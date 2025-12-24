@@ -91,3 +91,6 @@ async def reminder(ctx, task_number: int):
     await ctx.author.send(f"Reminder: {task}")
     await ctx.send(f"Reminder sent to your DMs, {ctx.author.mention}!")
 
+# ---------- Run Bot ----------
+bot.run(TOKENID)
+
